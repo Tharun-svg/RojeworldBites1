@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+    android:checkableBehavior="single">
+    <item android:id="@+id/a"
+        android:textStyle="bold"
+        android:title="Menu list"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+    <item android:id="@+id/a1"
+        android:title="My cart"
+        android:textStyle="bold"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"/>
+    <item android:id="@+id/a2"
+        android:title="Book order"
+        android:textStyle="bold"
+        android:icon="@drawable/sr2"/>
+    <item android:id="@+id/a3"
+        android:title="Favourites"
+        android:textStyle="bold"
+        android:icon="@drawable/sr3"/>
+    <item android:id="@+id/a4"
+        android:textStyle="bold"
+        android:title="About us"
+        android:icon="@drawable/as"/>
+    <item android:id="@+id/a5"
+        android:textStyle="bold"
+        android:title="Our policy "
+        android:icon="@drawable/ic_baseline_policy_24"/>
+</group>
+</menu>

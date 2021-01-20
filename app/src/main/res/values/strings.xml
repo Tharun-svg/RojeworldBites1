@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RojeworldBites</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Invalid_name">invalid name</string>
+    <string name="Invalid_mobile">enter valid number</string>
+    <string name="Invalid_email">enter valid email</string>
+    <string name="Invalid_vehicle">enter valid vehicle number</string>
+    <string name="Invalid_type">enter vehicle type</string>
+    <string name="Invalid_password">password</string>
+    <string name="type_samepassword">confirm</string>
+    <string name="Invalid_pass">Invalid  email/password</string>
+</resources>

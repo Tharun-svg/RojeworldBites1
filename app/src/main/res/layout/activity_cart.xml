@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/back"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        android:layout_marginRight="350dp">
+
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:text="cart"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/black">
+            <ImageView
+                android:id="@+id/s"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/re"
+                android:paddingLeft="10dp">
+            </ImageView>
+            <TextView
+                android:id="@+id/ua"
+                android:paddingLeft="30dp"
+                android:layout_toRightOf="@id/s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheese Tomato"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:layout_toRightOf="@id/ua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$1.45"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="110dp">
+
+            </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/black">
+            <ImageView
+                android:id="@+id/us"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/re"
+                android:paddingLeft="10dp">
+            </ImageView>
+            <TextView
+                android:id="@+id/usa"
+                android:paddingLeft="30dp"
+                android:layout_toRightOf="@id/us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheese Tomato"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:layout_toRightOf="@id/usa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$1.45"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="110dp">
+
+            </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:backgroundTint="@color/w"
+        android:text="Place Order"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="28dp"
+        android:layout_marginBottom="25dp"
+        android:layout_margin="10dp"
+        android:id="@+id/se">
+    </Button>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/se">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total:"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:gravity="left">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$0.00"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:gravity="right"
+            >
+
+        </TextView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

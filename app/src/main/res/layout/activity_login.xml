@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".login">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/gf"
+        android:src="@drawable/ic_baseline_arrow_back_24">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/order"
+        android:layout_height="wrap_content"
+        android:text=" delivery boy login"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp">
+
+    </TextView>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<ImageView
+    android:layout_marginTop="40dp"
+    android:id="@+id/c"
+    android:layout_width="256dp"
+    android:layout_height="256dp"
+    android:src="@drawable/boy"
+    android:layout_gravity="center"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/e"
+        android:hint="Enter Email Address"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/p"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Login"
+        android:backgroundTint="@color/w"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="28dp"
+        android:layout_marginBottom="25dp"
+        android:layout_margin="30dp">
+    </Button>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/lo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="don't have account?"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register now"
+        android:textColor="@color/teal_700"
+        >
+
+    </TextView>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
